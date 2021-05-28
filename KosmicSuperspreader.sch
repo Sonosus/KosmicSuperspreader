@@ -542,4 +542,38 @@ F 3 "" H 5000 5650 50  0001 C CNN
 	1    5000 5650
 	-1   0    0    1   
 $EndComp
+$Comp
+L Amplifier_Operational:TL072 U?
+U 1 1 60B46627
+P 6800 5400
+F 0 "U?" H 6800 5767 50  0000 C CNN
+F 1 "TL072" H 6800 5676 50  0000 C CNN
+F 2 "" H 6800 5400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6800 5400 50  0001 C CNN
+	1    6800 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 5500 6500 5650
+Wire Wire Line
+	6500 5650 7100 5650
+Wire Wire Line
+	7100 5650 7100 5400
+Text GLabel 6500 5300 0    50   Input ~ 0
+INPUT
+Text GLabel 7100 5400 2    50   Input ~ 0
+OUTPUT
+Text GLabel 4400 6350 2    50   Input ~ 0
+OUTPUT
+$Comp
+L power:GND #PWR?
+U 1 1 60B4B8F2
+P 4400 6450
+F 0 "#PWR?" H 4400 6200 50  0001 C CNN
+F 1 "GND" H 4405 6277 50  0000 C CNN
+F 2 "" H 4400 6450 50  0001 C CNN
+F 3 "" H 4400 6450 50  0001 C CNN
+	1    4400 6450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
