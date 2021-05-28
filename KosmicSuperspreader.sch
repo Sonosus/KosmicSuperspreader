@@ -260,8 +260,6 @@ Connection ~ 2700 4100
 Wire Wire Line
 	3100 4450 3300 4450
 Wire Wire Line
-	3300 4450 3300 4000
-Wire Wire Line
 	4550 4100 4550 4400
 Wire Wire Line
 	5000 4100 4550 4100
@@ -326,4 +324,154 @@ F 3 "" H 5400 1900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4900 1900 5400 1900
+Wire Wire Line
+	3300 4100 3400 4100
+Wire Wire Line
+	3300 4000 3300 4100
+Connection ~ 3300 4100
+Wire Wire Line
+	3300 4100 3300 4450
+Wire Wire Line
+	3400 4100 3400 2700
+Wire Wire Line
+	3400 2700 4550 2700
+Connection ~ 3400 4100
+Wire Wire Line
+	3400 4100 4250 4100
+Wire Wire Line
+	4250 4400 4000 4400
+Wire Wire Line
+	4000 4400 4000 2400
+Wire Wire Line
+	4000 2400 4550 2400
+$Comp
+L Connector:AudioJack2_Ground_Switch J?
+U 1 1 60B2E747
+P 2200 6350
+F 0 "J?" H 2232 6775 50  0000 C CNN
+F 1 "AudioJack2_Ground_Switch" H 2232 6684 50  0000 C CNN
+F 2 "" H 2200 6550 50  0001 C CNN
+F 3 "~" H 2200 6550 50  0001 C CNN
+F 4 "A-1121" H 2200 6350 50  0001 C CNN "Part"
+	1    2200 6350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2400 6450
+NoConn ~ 2400 6250
+NoConn ~ 2400 6150
+$Comp
+L power:GND #PWR?
+U 1 1 60B30BB2
+P 2200 6650
+F 0 "#PWR?" H 2200 6400 50  0001 C CNN
+F 1 "GND" H 2205 6477 50  0000 C CNN
+F 2 "" H 2200 6650 50  0001 C CNN
+F 3 "" H 2200 6650 50  0001 C CNN
+	1    2200 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2_Ground_Switch J?
+U 1 1 60B31450
+P 2900 6350
+F 0 "J?" H 2932 6775 50  0000 C CNN
+F 1 "AudioJack2_Ground_Switch" H 2932 6684 50  0000 C CNN
+F 2 "" H 2900 6550 50  0001 C CNN
+F 3 "~" H 2900 6550 50  0001 C CNN
+F 4 "A-1121" H 2900 6350 50  0001 C CNN "Part"
+	1    2900 6350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3100 6450
+NoConn ~ 3100 6250
+NoConn ~ 3100 6150
+$Comp
+L power:GND #PWR?
+U 1 1 60B31769
+P 2900 6650
+F 0 "#PWR?" H 2900 6400 50  0001 C CNN
+F 1 "GND" H 2905 6477 50  0000 C CNN
+F 2 "" H 2900 6650 50  0001 C CNN
+F 3 "" H 2900 6650 50  0001 C CNN
+	1    2900 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2_Ground_Switch J?
+U 1 1 60B33779
+P 3550 6350
+F 0 "J?" H 3582 6775 50  0000 C CNN
+F 1 "AudioJack2_Ground_Switch" H 3582 6684 50  0000 C CNN
+F 2 "" H 3550 6550 50  0001 C CNN
+F 3 "~" H 3550 6550 50  0001 C CNN
+F 4 "A-1121" H 3550 6350 50  0001 C CNN "Part"
+	1    3550 6350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3750 6450
+NoConn ~ 3750 6250
+NoConn ~ 3750 6150
+$Comp
+L power:GND #PWR?
+U 1 1 60B33AC2
+P 3550 6650
+F 0 "#PWR?" H 3550 6400 50  0001 C CNN
+F 1 "GND" H 3555 6477 50  0000 C CNN
+F 2 "" H 3550 6650 50  0001 C CNN
+F 3 "" H 3550 6650 50  0001 C CNN
+	1    3550 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2_Ground_Switch J?
+U 1 1 60B33ACD
+P 4250 6350
+F 0 "J?" H 4282 6775 50  0000 C CNN
+F 1 "AudioJack2_Ground_Switch" H 4282 6684 50  0000 C CNN
+F 2 "" H 4250 6550 50  0001 C CNN
+F 3 "~" H 4250 6550 50  0001 C CNN
+F 4 "A-1121" H 4250 6350 50  0001 C CNN "Part"
+	1    4250 6350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4450 6450
+NoConn ~ 4450 6250
+NoConn ~ 4450 6150
+$Comp
+L power:GND #PWR?
+U 1 1 60B33ADA
+P 4250 6650
+F 0 "#PWR?" H 4250 6400 50  0001 C CNN
+F 1 "GND" H 4255 6477 50  0000 C CNN
+F 2 "" H 4250 6650 50  0001 C CNN
+F 3 "" H 4250 6650 50  0001 C CNN
+	1    4250 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack2_Ground_Switch J?
+U 1 1 60B3629C
+P 1600 6350
+F 0 "J?" H 1632 6775 50  0000 C CNN
+F 1 "AudioJack2_Ground_Switch" H 1632 6684 50  0000 C CNN
+F 2 "" H 1600 6550 50  0001 C CNN
+F 3 "~" H 1600 6550 50  0001 C CNN
+F 4 "A-1121" H 1600 6350 50  0001 C CNN "Part"
+	1    1600 6350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1800 6450
+NoConn ~ 1800 6250
+NoConn ~ 1800 6150
+$Comp
+L power:GND #PWR?
+U 1 1 60B36645
+P 1600 6650
+F 0 "#PWR?" H 1600 6400 50  0001 C CNN
+F 1 "GND" H 1605 6477 50  0000 C CNN
+F 2 "" H 1600 6650 50  0001 C CNN
+F 3 "" H 1600 6650 50  0001 C CNN
+	1    1600 6650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
