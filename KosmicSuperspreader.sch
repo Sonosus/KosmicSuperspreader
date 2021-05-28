@@ -245,4 +245,85 @@ F 4 "A-2248" V 2250 4000 50  0001 C CNN "Part"
 	1    2250 4000
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	2400 4000 2400 4100
+Wire Wire Line
+	2700 4100 2400 4100
+Connection ~ 2400 4100
+Wire Wire Line
+	2400 4100 2400 4300
+Wire Wire Line
+	2800 4450 2700 4450
+Wire Wire Line
+	2700 4450 2700 4100
+Connection ~ 2700 4100
+Wire Wire Line
+	3100 4450 3300 4450
+Wire Wire Line
+	3300 4450 3300 4000
+Wire Wire Line
+	4550 4100 4550 4400
+Wire Wire Line
+	5000 4100 4550 4100
+Connection ~ 4550 4100
+Wire Wire Line
+	5100 4300 5000 4300
+Wire Wire Line
+	5000 4300 5000 4100
+Connection ~ 5000 4100
+Wire Wire Line
+	5400 4300 5600 4300
+Wire Wire Line
+	5600 4300 5600 4100
+Wire Wire Line
+	6400 4100 6950 4100
+Wire Wire Line
+	6100 4100 5600 4100
+Connection ~ 5600 4100
+Wire Wire Line
+	5600 4100 5600 4000
+Wire Wire Line
+	7100 4450 6950 4450
+Wire Wire Line
+	6950 4450 6950 4100
+Connection ~ 6950 4100
+Wire Wire Line
+	7550 4000 7550 4450
+Wire Wire Line
+	7550 4450 7400 4450
+Wire Wire Line
+	4850 2700 4950 2700
+Wire Wire Line
+	4950 2700 4950 2650
+Wire Wire Line
+	4850 2400 4900 2400
+Wire Wire Line
+	4950 2400 4950 2450
+Wire Wire Line
+	5350 2850 5550 2850
+Wire Wire Line
+	5550 2850 5550 2550
+Wire Wire Line
+	5050 2850 4950 2850
+Wire Wire Line
+	4950 2850 4950 2700
+Connection ~ 4950 2700
+Wire Wire Line
+	4900 2200 4900 2400
+Connection ~ 4900 2400
+Wire Wire Line
+	4900 2400 4950 2400
+$Comp
+L power:GND #PWR?
+U 1 1 60B2A62B
+P 5400 1900
+F 0 "#PWR?" H 5400 1650 50  0001 C CNN
+F 1 "GND" H 5405 1727 50  0000 C CNN
+F 2 "" H 5400 1900 50  0001 C CNN
+F 3 "" H 5400 1900 50  0001 C CNN
+	1    5400 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 1900 5400 1900
 $EndSCHEMATC
