@@ -38,30 +38,23 @@ X V+ 4 -100 300 150 D 50 50 5 1 W
 ENDDRAW
 ENDDEF
 #
-# Connector_AudioJack2_Ground_Switch
+# Connector_Conn_01x02_Male
 #
-DEF Connector_AudioJack2_Ground_Switch J 0 20 Y Y 1 F N
-F0 "J" 0 450 50 H V C CNN
-F1 "Connector_AudioJack2_Ground_Switch" 0 350 50 H V C CNN
-F2 "" 0 200 50 H I C CNN
-F3 "" 0 200 50 H I C CNN
+DEF Connector_Conn_01x02_Male J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Conn_01x02_Male" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 $FPLIST
- Jack*
+ Connector*:*_1x??_*
 $ENDFPLIST
 DRAW
-S -100 -100 -150 0 0 1 10 F
-S 100 250 -100 -200 0 1 10 f
-P 2 1 1 0 25 190 35 170 N
-P 2 1 1 0 70 -10 80 -30 N
-P 4 1 1 10 0 0 25 -25 50 0 100 0 N
-P 4 1 1 0 100 -100 70 -100 70 -10 60 -30 N
-P 4 1 1 0 100 100 25 100 25 190 15 170 N
-P 5 1 1 10 100 200 -25 200 -25 0 -50 -25 -75 0 N
-X ~ G 0 -300 100 U 50 50 1 1 P
-X ~ S 200 200 100 L 50 50 1 1 P
-X ~ SN 200 100 100 L 50 50 1 1 P
-X ~ T 200 0 100 L 50 50 1 1 P
-X ~ TN 200 -100 100 L 50 50 1 1 P
+S 34 -95 0 -105 1 1 6 F
+S 34 5 0 -5 1 1 6 F
+P 2 1 1 6 50 -100 34 -100 N
+P 2 1 1 6 50 0 34 0 N
+X Pin_1 1 200 0 150 L 50 50 1 1 P
+X Pin_2 2 200 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
