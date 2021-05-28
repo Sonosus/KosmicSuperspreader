@@ -576,4 +576,50 @@ F 3 "" H 4400 6450 50  0001 C CNN
 	1    4400 6450
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60B4C0F4
+P 5100 5050
+F 0 "C?" V 5329 5050 50  0000 C CNN
+F 1 "C_Small" V 5238 5050 50  0000 C CNN
+F 2 "" H 5100 5050 50  0001 C CNN
+F 3 "~" H 5100 5050 50  0001 C CNN
+	1    5100 5050
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5000 5050
+$Comp
+L Device:C_Small C?
+U 1 1 60B4CBBF
+P 5100 5650
+F 0 "C?" V 5329 5650 50  0000 C CNN
+F 1 "C_Small" V 5238 5650 50  0000 C CNN
+F 2 "" H 5100 5650 50  0001 C CNN
+F 3 "~" H 5100 5650 50  0001 C CNN
+	1    5100 5650
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5000 5650
+$Comp
+L power:GND #PWR?
+U 1 1 60B4D06F
+P 5450 5300
+F 0 "#PWR?" H 5450 5050 50  0001 C CNN
+F 1 "GND" H 5455 5127 50  0000 C CNN
+F 2 "" H 5450 5300 50  0001 C CNN
+F 3 "" H 5450 5300 50  0001 C CNN
+	1    5450 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 5050 5450 5050
+Wire Wire Line
+	5450 5050 5450 5300
+Wire Wire Line
+	5200 5650 5300 5650
+Wire Wire Line
+	5300 5650 5300 5300
+Wire Wire Line
+	5300 5300 5450 5300
+Connection ~ 5450 5300
 $EndSCHEMATC
