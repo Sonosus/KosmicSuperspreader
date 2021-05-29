@@ -11,6 +11,7 @@ The Spread pot is used as an offset for the Spread input if a jack is plugged in
 The Spread pot swings between +- 12v.
 
 Interactive BOM [here](https://htmlpreview.github.io/?https://github.com/Sonosus/KosmicSuperspreader/blob/main/Docs/KosmicSuperspreader.html).
+
 This work is licensed under a
 [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
 
