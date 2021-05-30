@@ -1,6 +1,9 @@
 # Kosmic Superspreader
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 [![hits](https://hits.deltapapa.io/github/sonosus/kosmicsuperspreader.svg)](https://hits.deltapapa.io)
+
+## About
+
 This is a Kosmo format 'spread' module.
 It takes a CV input and a Spread input.
 The Spread input is:
