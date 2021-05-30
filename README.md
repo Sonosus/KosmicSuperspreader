@@ -6,7 +6,7 @@ It takes a CV input and a Spread input.
 The Spread input is:
 * added to the CV input and sent to the + output.
 * subtracted from the CV input and sent to the - output.
-* Buffered and sent to the Buffer output - no multiples needed.
+The CV input is also buffered and sent to the Buffer output - no multiples needed.
 
 The Spread pot is used as an offset for the Spread input if a jack is plugged in, if not the Spread jack must be normalled to ground.
 The Spread pot swings between +- 12v.
