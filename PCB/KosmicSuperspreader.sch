@@ -893,8 +893,6 @@ Text Notes 7150 4500 0    50   ~ 0
 power circuit
 Text Notes 3650 1850 0    50   ~ 0
 spreader circuit
-Text Notes 950  1350 0    394  ~ 79
-NOT TESTED!
 $Comp
 L power:GND #PWR0106
 U 1 1 60B3E7BB
