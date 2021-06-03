@@ -16,7 +16,7 @@ The CV input is also buffered and sent to the Buffer output - no multiples neede
 The Spread pot is used as an offset for the Spread input if a jack is plugged in, if not the Spread jack must be normalled to ground.
 The Spread pot swings between +- 12v.
 ![image](https://aws1.discourse-cdn.com/free1/uploads/lookmumnocomputer/original/2X/7/76f274680969e396d5c10117ded16afb1bb8b4b6.jpeg)
-
+![image](https://aws1.discourse-cdn.com/free1/uploads/lookmumnocomputer/original/2X/2/2d627ca549847d63316f2b9fbd052e00bbfdd0bf.png)
 Interactive BOM [here](https://htmlpreview.github.io/?https://github.com/Sonosus/KosmicSuperspreader/blob/main/Docs/KosmicSuperspreader.html).
 
 This work is licensed under a
