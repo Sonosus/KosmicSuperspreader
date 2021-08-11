@@ -28,3 +28,7 @@ This work is licensed under a
 [cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
 [cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
 [cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
+
+<img src="https://github.com/Sonosus/KosmicSuperspreader/blob/main/OSHW_mark_UK000032.png" width="75">
+
+This project is certified open source hardware.
