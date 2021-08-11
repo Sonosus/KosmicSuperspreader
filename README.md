@@ -3,7 +3,7 @@ View this project on [CADLAB.io](https://cadlab.io/project/24378).
 # Kosmic Superspreader
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 [![hits](https://hits.deltapapa.io/github/sonosus/kosmicsuperspreader.svg)](https://hits.deltapapa.io)
-
+[![OSHWA](https://img.shields.io/badge/oshwa-certified-green)](https://certification.oshwa.org/uk000032.html)
 ## About
 
 This is a Kosmo format 'spread' module.
