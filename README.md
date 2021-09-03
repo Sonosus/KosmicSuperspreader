@@ -37,4 +37,4 @@ This work is licensed under a
 
 <img src="https://github.com/Sonosus/KosmicSuperspreader/blob/main/OSHW_mark_UK000032.png" width="75">
 
-This project is certified open source hardware.
+This project is certified [open source hardware](https://certification.oshwa.org/uk000032.html).
