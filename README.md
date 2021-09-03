@@ -20,6 +20,7 @@ The Spread pot swings between +- 12v.
 
 Interactive BOM [here](https://htmlpreview.github.io/?https://github.com/Sonosus/KosmicSuperspreader/blob/main/Docs/KosmicSuperspreader.html).
 
+Build notes/troubleshooting guide [here](Docs/build.md)
 There is an error on the silkscreen affecting some PCBs. 
 If you have built the v1.3 PCB currently available on Tindie, swap around the + and - wires going to the jacks.
 This has been fixed in the latest Gerber files.
