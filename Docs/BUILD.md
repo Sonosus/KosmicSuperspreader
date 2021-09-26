@@ -6,6 +6,8 @@ This is a simple build which can be completed in under 2 hours if you are experi
 
 On the v1.3 PCBs, the + and - outputs have been flipped on the silkscreen. This has been corrected in the latest version of both the KiCad files and Gerbers. Make sure you connect the + pad on the PCB to the - jack and vice versa.
 
+I made a classic oopsie with the pots; keep the centre pin connected, and bend out the outer pins **before** soldering. Use wire to flip the connections. Sorry!
+
 ## Building
 
 * All capacitors can be omitted; if the module malfunctions they can be added later.
