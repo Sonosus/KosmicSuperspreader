@@ -364,7 +364,7 @@ F 1 "SPREAD 100K" H 3231 3655 50  0000 R CNN
 F 2 "Sonosus:Potentiometer_Alpha_RD901F-40-00D" H 3300 3700 50  0001 C CNN
 F 3 "~" H 3300 3700 50  0001 C CNN
 	1    3300 3700
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Text GLabel 9250 3400 2    50   Input ~ 0
 OUTPLUS
@@ -392,7 +392,7 @@ F 1 "CV ATT 100K" H 3231 2905 50  0000 R CNN
 F 2 "Sonosus:Potentiometer_Alpha_RD901F-40-00D" H 3300 2950 50  0001 C CNN
 F 3 "~" H 3300 2950 50  0001 C CNN
 	1    3300 2950
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0108
