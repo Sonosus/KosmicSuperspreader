@@ -1,5 +1,24 @@
-site_name: Kosmic Superspreader
+site_name: Winterbloom Castor & Pollux User Guide
+repo_url: "https://github.com/sonosus/kosmicsuperspreader"
+edit_uri: edit/main/docs_site/docs
+theme:
+    name: winterbloom
+markdown_extensions:
+    - admonition
+    - def_list
+    - attr_list
+    - toc:
+          permalink: "#"
+          toc_depth: 2-3
+    - pymdownx.highlight:
+          use_pygments: True
+    - pymdownx.superfences
+    - pymdownx.magiclink
+    - md_in_html
+    - markdown_link_attr_modifier:
+          new_tab: "external_only"
+          custom_attrs:
+              referrerpolicy: "origin"
 nav:
-    - Home: index.md
-    - About: about.md
-theme: readthedocs
+    - "User Guide": index.md
+
