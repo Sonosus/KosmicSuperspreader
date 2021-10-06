@@ -1,6 +1,6 @@
-# Welcome to MkDocs
+# Kosmic Superspreader
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+The Kosmic Superspreader is a CV processing module for detuning and offsetting control voltages in modular synthesizers.
 
 ## Commands
 
