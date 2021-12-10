@@ -13,18 +13,21 @@ The Spread input is:
 * subtracted from the CV input and sent to the - output.
 The CV input is also buffered and sent to the Buffer output - no multiples needed.
 
-The Spread pot is used as an offset for the Spread input if a jack is plugged in, if not the Spread jack must be normalled to ground.
-The Spread pot swings between +- 12v.
-![image](https://aws1.discourse-cdn.com/free1/uploads/lookmumnocomputer/original/2X/7/76f274680969e396d5c10117ded16afb1bb8b4b6.jpeg)
-![image](https://aws1.discourse-cdn.com/free1/uploads/lookmumnocomputer/original/2X/2/2d627ca549847d63316f2b9fbd052e00bbfdd0bf.png)
+The Spread pot is used as an offset for the Spread input if a jack is plugged in, if not the Spread jack is normalled to ground.
+The offset from the Spread pot swings between 0V and 12V.
 
-Interactive BOM [here](https://htmlpreview.github.io/?https://github.com/Sonosus/KosmicSuperspreader/blob/main/Docs/KosmicSuperspreader.html).
+<img src="https://aws1.discourse-cdn.com/free1/uploads/lookmumnocomputer/original/2X/7/76f274680969e396d5c10117ded16afb1bb8b4b6.jpeg" height="300"><img src="https://aws1.discourse-cdn.com/free1/uploads/lookmumnocomputer/original/2X/2/2d627ca549847d63316f2b9fbd052e00bbfdd0bf.png" height="300">
 
-Build notes/troubleshooting guide [here](Docs/BUILD.md)
+* [Interactive BOM](https://htmlpreview.github.io/?https://github.com/Sonosus/KosmicSuperspreader/blob/main/Docs/KosmicSuperspreader.html).
+* [Build notes/troubleshooting guide](Docs/BUILD.md)
+* [Schematic](https://github.com/Sonosus/KosmicSuperspreader/blob/main/Docs/KosmicSuperspreader.pdf)
+* [PCB Gerber files](https://github.com/Sonosus/KosmicSuperspreader/tree/main/PCB/Gerber)
+* [PCB zipped Gerber files](https://github.com/Sonosus/KosmicSuperspreader/blob/main/PCB/Gerber.zip)
+* [Panel Gerber files](https://github.com/Sonosus/KosmicSuperspreader/tree/main/Panel/Gerber)
+* [Panel zipped Gerber files](https://github.com/Sonosus/KosmicSuperspreader/blob/main/Panel/Gerber/SpreaderPanel.zip)
 
 There is an error on the silkscreen affecting some PCBs. 
-If you have built the v1.3 PCB currently available on Tindie, swap around the + and - wires going to the jacks.
-This has been fixed in the latest Gerber files.
+For the v1.3 PCBs sold on Tindie, please see the build guide above.
 
 This work is licensed under a
 [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
