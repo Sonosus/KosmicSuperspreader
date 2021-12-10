@@ -12,8 +12,9 @@ Said errors have been fixed in the latest files and Gerbers.
 
 ## Building
 
+* The interactive bill of materials can be found [here](https://htmlpreview.github.io/?https://github.com/Sonosus/KosmicSuperspreader/blob/main/Docs/KosmicSuperspreader.html).
 * All capacitors can be safely omitted; if the module malfunctions or is noisy they can be added later.
-* The square pad on each header is to be connected to the tip of the jack socket and the round pad to the ground pin.
+* The square pad on each header is to be connected to the tip of each jack socket and the round pad to a ground(sleeve) pin on each socket. If you have fastened all the sockets to the panel you may only connect one ground wire to one of the socket, and the panel will do the work of connecting the sleeves of all the jacks together.
 
  Jack | PCB
  --- | ---
@@ -26,7 +27,7 @@ Said errors have been fixed in the latest files and Gerbers.
  
 
 
-* Molex connectors probably won't fit in the jack headers. If you want you can use [these](https://www.taydaelectronics.com/connectors-sockets/pin-headers/40-pin-male-2-54-mm-single-row-pin-header-break-away-round-pin-gold-plated.html) and cut them down to size. Personally I just solder wires directly to the holes on the PCB -  it makes no difference.
+* Molex connectors probably won't fit in the jack header pads on the board. Having said that I haven't tested them, so if they do work please report back and I will update this page. If you want you can use something like[these](https://www.taydaelectronics.com/connectors-sockets/pin-headers/40-pin-male-2-54-mm-single-row-pin-header-break-away-round-pin-gold-plated.html) with Dupont crimp connectors and cut them down to size. Personally I just solder wires directly to the holes on the PCB -  it makes no difference.
 * Before inserting the ICs, check you have the power connector on the right way round. Use a multimeter to check that you have the correct voltages on the correct pins of the IC sockets.
  
  Pin | Voltage
